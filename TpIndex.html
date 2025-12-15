@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TP DOM – Panier</title>
+</head>
+<body>
+
+    <h1>Gestion d'un Panier</h1>
+
+    <!-- Formulaire -->
+    <input type="text" id="productName" placeholder="Nom du produit">
+    <input type="number" id="productQty" placeholder="Quantité" value="1" min="1">
+    <button id="addBtn">Ajouter au panier</button>
+
+    <p id="emptyMsg">Le panier est vide</p>
+
+    <!-- Zone des produits -->
+    <ul id="productList"></ul>
+
+    <!-- Total -->
+    <h3>Total des articles : <span id="totalCount">0</span></h3>
+
+    <script src="panier.js"></script>
+</body>
+</html>
